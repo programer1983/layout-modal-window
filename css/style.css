@@ -1,6 +1,8 @@
 @import "./reset.css";
 
-
+body {
+    font-family: sans-serif;
+}
 
 .container {
     max-width: 1230px;
@@ -38,10 +40,31 @@
     transition: transform .8s;
 }
 
-.modal-close {
+.modal__box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.modal__box p {
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.open__btn {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.close__btn {
     position: absolute;
     top: 8px;
     right: 8px;
+}
+
+.close__btn img {
+    width: 30px;
+    height: 30px;
 }
 
 .modal.open {
