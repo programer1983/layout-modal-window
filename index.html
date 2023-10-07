@@ -9,11 +9,14 @@
 </head>
 <body>
     <div class="container">
-        <h1>My modal window</h1>
+        <button id="open-model">Open Modal Window</button>
     </div>
     
-    <div class="modal">
+    <div class="modal" id="my-modal">
         <div class="modal__box">
+            <button class="close__btn" id="modal-close">
+                <img src="img/icons-close.svg" alt="Icon">
+            </button>
             <h2>My modal window</h2>
 
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac justo ut massa euismod efficitur. Morbi sodales nisi turpis, et lacinia neque accumsan non. Phasellus vitae massa eget mauris tincidunt pretium eu vel diam. Donec eleifend ex in urna pulvinar, non porttitor enim congue. Integer at porta sem. </p>
@@ -22,6 +25,6 @@
     </div>
     
 
-    <script src="./js/main.js"></script>
+    <script defer src="./js/main.js"></script>
 </body>
 </html>
